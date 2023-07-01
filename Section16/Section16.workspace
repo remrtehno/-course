@@ -10,12 +10,13 @@
   <Project Name="Interfaces-start" Path="Interfaces/Interfaces.project" Active="No"/>
   <Project Name="PureVirtualFunctions" Path="PureVirtualFunctions/PureVirtualFunctions.project" Active="No"/>
   <Project Name="Interfaces-Complete" Path="Interfaces-Complete/Interfaces-Complete.project" Active="No"/>
-  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="No"/>
-  <Project Name="ChallengeSolution" Path="ChallengeSolution/ChallengeSolution.project" Active="Yes"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
+  <Project Name="ChallengeSolution" Path="ChallengeSolution/ChallengeSolution.project" Active="No"/>
   <Project Name="ChallengeSolution-Part1" Path="ChallengeSolution-Part1/ChallengeSolution-Part1.project" Active="No"/>
   <Project Name="ChallengeSolution-Part2" Path="ChallengeSolution-Part2/ChallengeSolution-Part2.project" Active="No"/>
+  <Project Name="Test" Path="Test/Test.project" Active="No"/>
   <BuildMatrix>
-    <WorkspaceConfiguration Name="Debug" Selected="yes">
+    <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="TheProblem" ConfigName="Debug"/>
       <Project Name="UsingOverride" ConfigName="Debug"/>
@@ -31,8 +32,9 @@
       <Project Name="ChallengeSolution" ConfigName="Debug"/>
       <Project Name="ChallengeSolution-Part1" ConfigName="Debug"/>
       <Project Name="ChallengeSolution-Part2" ConfigName="Debug"/>
+      <Project Name="Test" ConfigName="Debug"/>
     </WorkspaceConfiguration>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
+    <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="TheProblem" ConfigName="Release"/>
       <Project Name="UsingOverride" ConfigName="Release"/>
@@ -48,6 +50,7 @@
       <Project Name="ChallengeSolution" ConfigName="Release"/>
       <Project Name="ChallengeSolution-Part1" ConfigName="Release"/>
       <Project Name="ChallengeSolution-Part2" ConfigName="Release"/>
+      <Project Name="Test" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
