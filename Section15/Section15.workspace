@@ -5,10 +5,12 @@
   <Project Name="ConstructorsAndDestructors" Path="ConstructorsAndDestructors/ConstructorsAndDestructors.project" Active="No"/>
   <Project Name="CopyConstructorAssignmentOperator" Path="CopyConstructorAssignmentOperator/CopyConstructorAssignmentOperator.project" Active="No"/>
   <Project Name="RedefiningBaseClassMethods" Path="RedefiningBaseClassMethods/RedefiningBaseClassMethods.project" Active="No"/>
-  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="No"/>
   <Project Name="ChallengeSolution" Path="ChallengeSolution/ChallengeSolution.project" Active="No"/>
+  <Project Name="BaseClassInitialization" Path="BaseClassInitialization/BaseClassInitialization.project" Active="No"/>
+  <Project Name="Test" Path="Test/Test.project" Active="Yes"/>
   <BuildMatrix>
-    <WorkspaceConfiguration Name="Debug" Selected="yes">
+    <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="DerivingOurFirstClass" ConfigName="Debug"/>
       <Project Name="ProtectedMembersClassAccess" ConfigName="Debug"/>
@@ -18,8 +20,9 @@
       <Project Name="RedefiningBaseClassMethods" ConfigName="Debug"/>
       <Project Name="Challenge" ConfigName="Debug"/>
       <Project Name="ChallengeSolution" ConfigName="Debug"/>
+      <Project Name="Test" ConfigName="Debug"/>
     </WorkspaceConfiguration>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
+    <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="DerivingOurFirstClass" ConfigName="Release"/>
       <Project Name="ProtectedMembersClassAccess" ConfigName="Release"/>
@@ -29,7 +32,7 @@
       <Project Name="RedefiningBaseClassMethods" ConfigName="Release"/>
       <Project Name="Challenge" ConfigName="Release"/>
       <Project Name="ChallengeSolution" ConfigName="Release"/>
+      <Project Name="Test" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
-  <Project Name="BaseClassInitialization" Path="BaseClassInitialization/BaseClassInitialization.project" Active="No"/>
 </CodeLite_Workspace>

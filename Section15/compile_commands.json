@@ -1,4 +1,48 @@
 [{
+  "file": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Account.h",
+  "directory": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Account.h -o C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Account.h.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Account_Util.h",
+  "directory": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Account_Util.h -o C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Account_Util.h.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Account.cpp",
+  "directory": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Account.cpp -o C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Account.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Savings_Account.h",
+  "directory": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Savings_Account.h -o C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Savings_Account.h.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Savings_Account.cpp",
+  "directory": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Savings_Account.cpp -o C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Savings_Account.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Trust_Account.cpp",
+  "directory": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Trust_Account.cpp -o C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Trust_Account.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Checking_Account.cpp",
+  "directory": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Checking_Account.cpp -o C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Checking_Account.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\main.cpp",
+  "directory": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\main.cpp -o C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Checking_Account.h",
+  "directory": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Checking_Account.h -o C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Checking_Account.h.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Account_Util.cpp",
+  "directory": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Account_Util.cpp -o C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Account_Util.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Trust_Account.h",
+  "directory": "C:\\Users\\ikuryakov\\workspaces\\Section15\\Test",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Trust_Account.h -o C:\\Users\\ikuryakov\\workspaces\\Section15\\Test\\Trust_Account.h.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
   "file": "C:\\Users\\ikuryakov\\workspaces\\Section15\\ChallengeSolution\\Account_Util.cpp",
   "directory": "C:\\Users\\ikuryakov\\workspaces\\Section15\\ChallengeSolution",
   "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ikuryakov\\workspaces\\Section15\\ChallengeSolution\\Account_Util.cpp -o C:\\Users\\ikuryakov\\workspaces\\Section15\\ChallengeSolution\\Account_Util.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
