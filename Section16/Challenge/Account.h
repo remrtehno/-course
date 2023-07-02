@@ -3,8 +3,9 @@
 #define _ACCOUNT_H_
 #include <iostream>
 #include <string>
+#include "I_Printable.h"
 
-class Account {
+class Account: public I_Printable {
     friend std::ostream &operator<<(std::ostream &os, const Account &account);
 private:   
     static constexpr const char *def_name = "Unnamed Account";

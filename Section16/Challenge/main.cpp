@@ -27,7 +27,7 @@ int main() {
     
     // Savings 
 
-    vector<Savings_Account> sav_accounts;
+    vector<Account> sav_accounts;
     sav_accounts.push_back(Savings_Account {} );
     sav_accounts.push_back(Savings_Account {"Superman"} );
     sav_accounts.push_back(Savings_Account {"Batman", 2000} );
@@ -39,7 +39,7 @@ int main() {
    
    // Checking
    
-    vector<Checking_Account> check_accounts;
+    vector<Account> check_accounts;
     check_accounts.push_back(Checking_Account {} );
     check_accounts.push_back(Checking_Account {"Kirk"} );
     check_accounts.push_back(Checking_Account {"Spock", 2000} );
@@ -51,7 +51,7 @@ int main() {
 
     // Trust
   
-    vector<Trust_Account> trust_accounts;
+    vector<Account> trust_accounts;
     trust_accounts.push_back(Trust_Account {} );
     trust_accounts.push_back(Trust_Account {"Athos", 10000, 5.0} );
     trust_accounts.push_back(Trust_Account {"Porthos", 20000, 4.0} );
