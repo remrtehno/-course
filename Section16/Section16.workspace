@@ -10,11 +10,11 @@
   <Project Name="Interfaces-start" Path="Interfaces/Interfaces.project" Active="No"/>
   <Project Name="PureVirtualFunctions" Path="PureVirtualFunctions/PureVirtualFunctions.project" Active="No"/>
   <Project Name="Interfaces-Complete" Path="Interfaces-Complete/Interfaces-Complete.project" Active="No"/>
-  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="No"/>
   <Project Name="ChallengeSolution" Path="ChallengeSolution/ChallengeSolution.project" Active="No"/>
   <Project Name="ChallengeSolution-Part1" Path="ChallengeSolution-Part1/ChallengeSolution-Part1.project" Active="No"/>
   <Project Name="ChallengeSolution-Part2" Path="ChallengeSolution-Part2/ChallengeSolution-Part2.project" Active="No"/>
-  <Project Name="Test" Path="Test/Test.project" Active="No"/>
+  <Project Name="Test" Path="Test/Test.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
