@@ -13,8 +13,16 @@ public:
     }
 };
 
+class Square_Abstract : public Shape {
+public:
+    virtual void draw2() = 0;
+};
 
-class Square : public Shape {
+class Square : public Square_Abstract {
+    void draw2() {
+        // Derived class implementation
+        std::cout << "Drawing a square." << std::endl;
+    };
     void draw() override {
         // Derived class implementation
         std::cout << "Drawing a square." << std::endl;
