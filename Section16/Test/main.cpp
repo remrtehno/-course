@@ -2,27 +2,25 @@
 
 class Shape {
 public:
-     void draw() {
-        // Base class implementation
-        std::cout << "Drawing a shape." << std::endl;
-    }
+     virtual void draw() = 0;
 };
 
 class Circle : public Shape {
 public:
-    void draw() {
+    void draw() override {
         // Derived class implementation
         std::cout << "Drawing a circle." << std::endl;
     }
 };
 
+
 class Square : public Shape {
-public:
-    void draw() {
+    void draw() override {
         // Derived class implementation
         std::cout << "Drawing a square." << std::endl;
-    }
+    };
 };
+
 
 int main() {
     Circle circle;
