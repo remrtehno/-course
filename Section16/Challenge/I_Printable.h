@@ -1,12 +1,13 @@
-#ifndef I_PRINTABLE_H
-#define I_PRINTABLE_H
+#ifndef _I_PRINTABLE_H_
+#define _I_PRINTABLE_H_
+#include "I_Printable.h"
 
 class I_Printable
 {
+    friend std::ostream &operator<<(std::ostream &os, const I_Printable &obj);
 public:
-    I_Printable();
-    ~I_Printable();
-
+    virtual void print(std::ostream &os) const = 0;
+    virtual ~I_Printable() = default;
 };
 
-#endif // I_PRINTABLE_H
+#endif
