@@ -64,6 +64,19 @@ int main() {
         withdraw(trust_accounts, 1000);
     
 
+
+delete p1;
+delete p2;
+delete p3;
+delete p4;
+delete p5;
+delete p6;
+delete p7;
+delete p8;
+delete p9;
+delete p10;
+delete p11;
+delete p12;
     
     return 0;
 }
