@@ -79,7 +79,7 @@ void fill(std::vector<std::shared_ptr<Test>> &vec_ptr, int num) {
         int current_value_num = i * 10;
         std::cout << "Enter data point [" << i << "] : " << current_value_num << std::endl;
     
-       vec_ptr.push_back(std::make_shared<Test>(current_value_num));
+        vec_ptr.push_back(std::make_shared<Test>(current_value_num));
    } 
 }
 
