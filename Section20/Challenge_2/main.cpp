@@ -8,6 +8,7 @@
 #include <cctype>
 #include <iomanip>
 #include <limits>
+#include <algorithm>
 
 class Song {
     friend std::ostream &operator<<(std::ostream &os, const Song &s);
@@ -54,22 +55,31 @@ void display_menu() {
     std::cout << "Enter a selection (Q to quit): ";
 }
 
+
+
 void play_current_song(const Song &song) {
     // This function should display 
     // Playing: followed by the song that is playing
-   
+
     std::cout << "You implement this function"<< std::endl;
 }
 
 void display_playlist(const std::list<Song> &playlist, const Song &current_song) {
     // This function should display the current playlist 
     // and then the current song playing.
-    
-    std::cout << "You implement this function" << std::endl;
+    for(const auto &song : playlist) {
+        std::cout << song << std::endl;
+    }
+    std::cout << "Current song: \n" << current_song << std::endl;
 }
 
 int main() {
 
+    std::string selection = "";
+    std::string new_song_name = "";
+    std::string new_song_artist = "";
+    int new_song_rating = 0;
+    
     std::list<Song> playlist{
             {"God's Plan",        "Drake",                     5},
             {"Never Be The Same", "Camila Cabello",            5},
@@ -83,6 +93,79 @@ int main() {
     
     std::cout << "To be implemented" << std::endl;
     // Your program logic goes here
+    display_playlist(playlist, *current_song);
+
+    
+    do {
+        display_menu();
+        
+        std::cin >> selection;
+        
+        if(selection == "F") {
+           current_song = playlist.begin();
+            std::cout << "Playing First Song" << std::endl;
+            std::cout << "Playing: \n" <<  *current_song << std::endl;
+        }
+        
+        if(selection == "N") {
+             std::cout << "Playing Next Song" << std::endl;
+             current_song++;
+             
+             if(current_song == playlist.end()) {
+               current_song = playlist.begin();
+                 
+                 
+             }
+             std::cout << "Playing: \n" <<  *current_song << std::endl;
+
+        }
+        
+        if(selection == "P") {
+             std::cout << "Playing Previous Song" << std::endl;
+             
+             if(current_song != playlist.begin()) {
+             current_song--;
+             }
+             
+             if(current_song == playlist.begin()) {
+                current_song = playlist.end();
+                current_song--;
+             } 
+                 std::cout << "Playing: \n" <<  *current_song << std::endl;
+            
+        }
+        
+        if(selection == "A") {
+            
+            
+            std::cout << "Adding and playing new song" << std::endl;
+            std::cout << "Enter song name: ";
+            std::cin >> new_song_name;
+            
+            std::cout << "Enter song artist: ";
+            std::cin >> new_song_artist;
+            
+            std::cout << "Enter song rating: ";
+            std::cin >> new_song_rating;
+                      
+            Song new_song{new_song_name, new_song_artist, new_song_rating};
+                      
+            playlist.insert(current_song, new_song);
+            
+            current_song = std::find(playlist.begin(), playlist.end(), new_song);
+
+
+            std::cout << "Playing: \n" <<  new_song << std::endl;
+            
+        }
+        
+        if(selection == "L") {
+            for(const auto &song : playlist) {
+                std::cout << song << std::endl;
+            }
+        }
+        
+    } while(selection != "Q");
 
     std::cout << "Thanks for listening!" << std::endl;
     return 0;
