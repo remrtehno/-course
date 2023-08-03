@@ -12,7 +12,31 @@ bool is_palindrome(const std::string& s)
 {
     // You must implement this function.
     // Since we are learning the STL - use a stack and a queue to solve the problem.
-    return false;
+    
+    std::stack<char> init_chs;
+    std::queue<char> init_chs_q;
+    
+    for(const char ch : s) {
+        
+        if(std::isalpha(ch)) {
+                   init_chs.push(std::toupper(ch));
+        init_chs_q.push(std::toupper(ch)); 
+        }
+
+    }
+    
+    while(!init_chs.empty()) {
+       
+      
+      if(init_chs.top() != init_chs_q.front()) {
+          return false;
+      }
+      
+      init_chs.pop();
+      init_chs_q.pop(); 
+    }
+    
+    return true;
 }
 
 int main()
