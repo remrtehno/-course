@@ -61,10 +61,20 @@ void part1() {
     std::map<std::string, int> words;
     std::string line;       
     std::string word;   
-    std::ifstream in_file {"../words.txt"};
+    std::ifstream in_file {"words.txt"};
     if (in_file) {
         
         // You implement this code
+        
+        while(in_file >> word) {
+            std::string sanitized_word = clean_string(word);
+            
+            if(words.find(sanitized_word) != words.end()) {
+                words[sanitized_word]++;
+            } else {
+                words[sanitized_word] = 1;
+            }
+        }
         
         in_file.close();
         display_words(words);
@@ -79,10 +89,26 @@ void part2() {
     std::map<std::string, std::set<int>> words;
     std::string line;
     std::string word;
-    std::ifstream in_file {"../words.txt"};
+    std::ifstream in_file {"words.txt"};
+    int curr_line = 0;
+    
     if (in_file) {
      
         // You implement this code
+        
+     while(std::getline(in_file, line)) {
+        curr_line++;
+         
+         std::stringstream sm(line);
+         
+        while(sm >> word) {
+             words[word].insert(curr_line);
+        }
+         
+        std::string sanitized_word = clean_string(word);
+        
+       
+    }
         
         in_file.close();
         display_words(words);

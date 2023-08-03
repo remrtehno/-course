@@ -6,15 +6,15 @@
 ProjectName            :=Challenge_3_Solution
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :="G:/My Drive/VideoCourses/Beginning C++ - Complete/CPPExamples-Complete/CPPExamples/Section20"
-ProjectPath            :="G:/My Drive/VideoCourses/Beginning C++ - Complete/CPPExamples-Complete/CPPExamples/Section20/Challenge_3_Solution"
+WorkspacePath          :=C:/Users/ikuryakov/workspaces/Section20
+ProjectPath            :=C:/Users/ikuryakov/workspaces/Section20/Challenge_3_Solution
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=frank
-Date                   :=18/06/2023
+User                   :=ikuryakov
+Date                   :=8/3/2023
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/mingw64/bin/g++.exe
 SharedObjectLinkerName :=C:/mingw64/bin/g++.exe -shared -fPIC
@@ -36,7 +36,7 @@ ArchiveOutputSwitch    :=
 PreprocessOnlySwitch   :=-E
 ObjectsFileList        :="Challenge_3_Solution.txt"
 PCHCompileFlags        :=
-MakeDirCommand         :="C:/Program Files/CodeLite/mkdir.exe" -p
+MakeDirCommand         :=makedir
 RcCmpOptions           := 
 RcCompilerName         :=C:/mingw64/bin/windres.exe
 LinkOptions            :=  
@@ -64,7 +64,6 @@ AS       := C:/mingw64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-SHELL:=cmd.exe
 Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
 
 
@@ -97,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "G:/My Drive/VideoCourses/Beginning C++ - Complete/CPPExamples-Complete/CPPExamples/Section20/Challenge_3_Solution/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/ikuryakov/workspaces/Section20/Challenge_3_Solution/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
